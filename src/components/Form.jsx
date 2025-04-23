@@ -85,6 +85,8 @@ function Form() {
       position: { lat, lng },
     };
 
+    console.log("emoji 2 ", emoji);
+
     await createCity(newCity);
     navigate("/app/cities");
   }
